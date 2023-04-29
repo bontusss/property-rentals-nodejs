@@ -1,0 +1,34 @@
+{
+  "name": "simple_property_rentals",
+  "version": "1.0.0",
+  "description": "Application for single users to offer rental properties.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bontusss/simple_property_rentals.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "rentals"
+  ],
+  "author": "Ikwechegh Ukandu <ikwecheghu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bontusss/simple_property_rentals/issues"
+  },
+  "homepage": "https://github.com/bontusss/simple_property_rentals#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.1"
+  }
+}
